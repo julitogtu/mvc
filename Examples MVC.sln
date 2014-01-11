@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerFactory", "ControllerFactory\ControllerFactory.csproj", "{5CCA9514-DB6D-4FB9-A3A2-53B190C46712}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerFactoryDI", "ControllerFactoryDI\ControllerFactoryDI.csproj", "{F12901A4-D346-4EEA-AFC8-D1D25E9AB5CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{5CCA9514-DB6D-4FB9-A3A2-53B190C46712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CCA9514-DB6D-4FB9-A3A2-53B190C46712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CCA9514-DB6D-4FB9-A3A2-53B190C46712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12901A4-D346-4EEA-AFC8-D1D25E9AB5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12901A4-D346-4EEA-AFC8-D1D25E9AB5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12901A4-D346-4EEA-AFC8-D1D25E9AB5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12901A4-D346-4EEA-AFC8-D1D25E9AB5CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
